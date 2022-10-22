@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import MovieDetails from "./assets/pages/MovieDetails";
-import MovieList from "./assets/pages/MovieList";
+import MovieDetails from "./pages/MovieDetails";
+import MovieList from "./pages/MovieList";
 
 function App() {
   return (

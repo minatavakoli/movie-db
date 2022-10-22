@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useDebounce } from "../../../utils";
+import { useDebounce } from "../../utils";
 import { Container } from "./style";
 import { MovieListResponse } from "./types";
 
